@@ -1,0 +1,234 @@
+*{            
+    Font-family:"poppins",Sans-Serif;
+    margin:0; 
+   padding:0; 
+   box-sizing:border-box;
+   scroll-behavior:smooth;
+  }           
+              
+    header{   
+      background-color:white;
+      width:100%;          
+      position:fixed;      
+      display:flex;        
+      justify-content:space-between;
+      align-items:center;  
+      padding: 5px 100px;  
+    }                    
+    .img{               
+      width: 80%;
+      height: 40%;       
+      margin-right: 50px;          
+    }                      
+    .logo{                 
+      text-decoration:none;
+      color:cadetblue;     
+      text-transform: uppercase;
+      font-weight:700;     
+      font-size:1,8em;     
+    }                      
+    .navigation a{         
+      color: blue;         
+      text-decoration:none;
+      font-size:1,2em;     
+      font-weight:500;   
+      padding-left: 30px;       
+    }                      
+      .navigation a:hover{ 
+        color:teal;                 
+    }                                 
+      section {                       
+        padding: 100px 200px;         
+ }                                    
+    .main{                            
+        width:100%;                   
+        min-height:1000px;            
+        display:flex;                 
+        align-items:center;           
+        background-size:cover;        
+        background-position:right;    
+        background-attachment:fixed;  
+      }                               
+     .main h2{                        
+        color:black;                  
+        font-size: 1,4em;             
+        font-weight: 600;             
+        margin-left:70px;             
+      }                               
+     .main h2 span{                  
+        color: blue;                 
+        font-size:3em;               
+        font-weight:600;           
+        display:inline-block;      
+        margin-top:10px;
+                        
+ }                      
+     .main h3{          
+        color:ghostwhite;
+        font-size:1,6em;
+        font-weight:700;
+        margin-top:10px;
+        margin-bottom:50px;
+     }                            
+                                  
+    .main-btn{                    
+      color: white;               
+      background-color: blue;     
+      text-decoration: none;      
+      Font-size: 1.1em;           
+      font-weight: 600;           
+      display: inline-block;      
+      padding: 0.9375em  2.1875em;
+      border-radius: 15px;        
+      margin-bottom: 40px;        
+                                  
+                                  
+    }                             
+                                  
+    .main-btn:hover{              
+      color: #601;                
+      background-color:chartreuse;
+      transform: scale(1.1);      
+    }                             
+                                  
+    .social-icon a {              
+      color:darkblue;             
+      font-size: 2em;             
+      padding-right: 20px;
+    }                   
+    .title{             
+      display: flex;    
+      justify-content: center;
+      color: blue;      
+      font-size: 2.2em; 
+      font-weight: 800;
+      margin-bottom: 150px;
+    }                  
+    .content{       
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }                
+                     
+   .products{        
+        background-color: black;
+        margin-right: 50px;
+    }                
+   .product.content {
+      margin-top: 30px;
+    }                
+   .product-card{    
+      background-color:#ffff;
+      border: 1px  solid #fff;
+      min-height: 14em;
+      width: 23em;   
+      overflow: hidden;
+      border-radius: 10px;
+      margin: 20px;  
+    }                
+    .product-card:hover{
+      transform: scale(1.1);
+    }                
+    .product-card:hover .product-image{
+      opacity: 0,9;  
+    }                
+    .product-image img{
+      width: 100%; 
+    }              
+    .product-info{ 
+     padding: 1em; 
+    }              
+    .product-cattegery{
+      font-size: 0,8em;
+      color: #000; 
+    }              
+    .product-title{
+      display: flex;
+      justify-content: space-between;
+      text-transform: uppercase;
+      font-weight: 800;
+      margin: 10px;
+    }              
+    .min-price{    
+      text-decoration: none;
+      color: darkslateblue;
+    }              
+.main-btn:hover {  
+      color: #601; 
+    }              
+  .image-article{  
+      float: top;  
+      background-position: bottom;
+      background-size:cover;
+    }              
+.image-article img {
+    width: 70%;    
+    height: 50%;   
+                   
+   }               
+.content .article h4 {
+    color:blueviolet;
+    font-size: 17px;
+  }                 
+.content .article p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color:#000;     
+  }                 
+.content .article .button{
+      margin-top: 50px;
+      margin-left: 700px;
+                    
+  }                 
+.content .article .button a{
+    text-decoration: none;
+    padding: 7px 30px;
+    background-color:goldenrod;
+    border-radius: 10px;
+    color: #000;    
+    font-size: 20px;
+    letter-spacing: 1.2px;
+
+   }
+  .content .article .button a:hover{
+    color: white;
+    background-color:darkblue;
+   }
+  .card-contact{
+    background-color: white;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px;
+   }
+  .card-contact:hover {
+    transform: scale(1.1);
+   }
+  .icon {
+    color: blueviolet;
+    font-size: 8em;
+    text-align: center;
+   }
+  .contact .icon{
+    font-size: 4.5em;
+   }
+  .info{
+    text-align: center;
+
+   }
+    .info h3{
+      color: blueviolet;
+      font-size: 1.2em;
+      font-weight: 100;
+      margin: 10px;
+    }
+  .contact .info h3{
+    color: blue;
+  }
+
+  .contact .info p{
+    font-size: 1.5em;
+  }
